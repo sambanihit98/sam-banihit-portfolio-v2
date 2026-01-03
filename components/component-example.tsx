@@ -120,7 +120,7 @@ export function ComponentExample() {
         <Experience />
       </div>
       <div className="grid lg:grid-cols-[1fr_2fr] items-stretch">
-        <div className="flex lg:flex-col">
+        <div className="flex flex-col ">
           <SocialLinks />
           <Contact />
         </div>
@@ -158,7 +158,7 @@ function Header() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardContent>
           <div className="flex flex-row items-center gap-5">
             <div>
@@ -173,7 +173,7 @@ function Header() {
             <div className="space-y-5">
               <div className="space-y-1">
                 <div className="flex gap-2 items-center">
-                  <p className="text-2xl font-bold">Sam Banihit</p>
+                  <p className="lg:text-2xl font-bold text-lg">Sam Banihit</p>
                   <svg
                     viewBox="0 0 22 22"
                     xmlns="http://www.w3.org/2000/svg"
@@ -187,14 +187,14 @@ function Header() {
                   </svg>
                 </div>
                 <div>
-                  <p className="flex items-center gap-1">
+                  <p className="flex items-center gap-1 lg:text-md text-xs">
                     <MapPin className="h-4 w-4" />
                     Bacolod City, Philippines
                   </p>
                 </div>
               </div>
               <div>
-                <p className="text-lg">Full-Stack Web Developer</p>
+                <p className="lg:text-lg text-sm">Full-Stack Web Developer</p>
               </div>
               <div className="flex gap-2">
                 <a href="mailto:sambanihit@gmail.com">
@@ -226,7 +226,7 @@ function About() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <CircleUserRound className="h-5 w-5" />
           <CardTitle>About</CardTitle>
@@ -268,7 +268,7 @@ function Experience() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <Briefcase className="h-4 w-4" />
           <CardTitle>Experience</CardTitle>
@@ -299,7 +299,7 @@ function Testimonials() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <CircleUserRound className="h-5 w-5" />
           <CardTitle>Testimonials</CardTitle>
@@ -345,13 +345,13 @@ function Others() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <Briefcase className="h-4 w-4" />
           <CardTitle>Let’s Work Together</CardTitle>
         </CardHeader>
 
-        <CardContent className="relative flex flex-col justify-between h-full">
+        <CardContent className="relative flex flex-col justify-between h-full gap-4">
           <div>
             <p>
               If you're a business seeking to establish a web presence or an
@@ -378,7 +378,7 @@ function TechStack() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <Briefcase className="h-4 w-4" />
           <CardTitle>Tech Stack</CardTitle>
@@ -458,7 +458,7 @@ function SocialLinks() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <Briefcase className="h-4 w-4" />
           <CardTitle>Social Links</CardTitle>
@@ -539,7 +539,7 @@ function Contact() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <Briefcase className="h-4 w-4" />
           <CardTitle>Contact</CardTitle>
@@ -588,7 +588,7 @@ function RecentProjects() {
 
   return (
     <Example>
-      <Card className="w-full h-full">
+      <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
           <Briefcase className="h-4 w-4" />
           <CardTitle>Recent Projects</CardTitle>
