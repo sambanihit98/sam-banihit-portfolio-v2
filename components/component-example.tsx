@@ -699,6 +699,7 @@ function RecentProjects() {
                       <p className="font-semibold">
                         Consortium for Global Education
                       </p>
+                      <p className="text-xs">Education & Training</p>
                     </div>
                     <div>
                       <Button
@@ -725,6 +726,9 @@ function RecentProjects() {
                   <div className="space-y-2">
                     <div>
                       <p className="font-semibold">MedStar BTR</p>
+                      <p className="text-xs">
+                        Healthcare / Medical Billing & Training
+                      </p>
                     </div>
                     <div>
                       <Button
@@ -751,6 +755,7 @@ function RecentProjects() {
                   <div className="space-y-2">
                     <div>
                       <p className="font-semibold">Khayil Digital Solutions</p>
+                      <p className="text-xs">Digital Marketing Services</p>
                     </div>
                     <div>
                       <Button
@@ -777,6 +782,7 @@ function RecentProjects() {
                   <div className="space-y-2">
                     <div>
                       <p className="font-semibold">IAMFAME Inc.</p>
+                      <p className="text-xs">Education / Nonprofit</p>
                     </div>
                     <div>
                       <Button
@@ -803,6 +809,7 @@ function RecentProjects() {
                   <div className="space-y-2">
                     <div>
                       <p className="font-semibold">In Christ Alone Ministry</p>
+                      <p className="text-xs">Religion / Christian Ministry</p>
                     </div>
                     <div>
                       <Button
@@ -829,6 +836,7 @@ function RecentProjects() {
                   <div className="space-y-2">
                     <div>
                       <p className="font-semibold">MedStar Philippines</p>
+                      <p className="text-xs">Healthcare Education & Training</p>
                     </div>
                     <div>
                       <Button
