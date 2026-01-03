@@ -657,7 +657,7 @@ function RecentProjects() {
                   </div>
                 </CardContent>
               </Card>
-              <Card className="w-full">
+              {/* <Card className="w-full">
                 <CardContent>
                   <div className="space-y-2">
                     <div>
@@ -681,7 +681,7 @@ function RecentProjects() {
                     </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </section>
 
