@@ -16,10 +16,16 @@ import {
   Briefcase,
   CircleUserRound,
   FileUser,
+  FolderOpenDot,
   Globe,
+  Handshake,
+  Layers,
   Mail,
   MapPin,
+  MessageCircle,
   Phone,
+  UserRoundSearch,
+  Waypoints,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import Image from "next/image";
@@ -301,7 +307,7 @@ function Testimonials() {
     <Example>
       <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
-          <CircleUserRound className="h-5 w-5" />
+          <MessageCircle className="h-5 w-5" />
           <CardTitle>Testimonials</CardTitle>
         </CardHeader>
         <CardContent>
@@ -347,7 +353,7 @@ function Others() {
     <Example>
       <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
-          <Briefcase className="h-4 w-4" />
+          <Handshake className="h-4 w-4" />
           <CardTitle>Let’s Work Together</CardTitle>
         </CardHeader>
 
@@ -380,7 +386,7 @@ function TechStack() {
     <Example>
       <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
-          <Briefcase className="h-4 w-4" />
+          <Layers className="h-4 w-4" />
           <CardTitle>Tech Stack</CardTitle>
         </CardHeader>
         <CardContent className="space-y-5">
@@ -460,7 +466,7 @@ function SocialLinks() {
     <Example>
       <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
-          <Briefcase className="h-4 w-4" />
+          <Waypoints className="h-4 w-4" />
           <CardTitle>Social Links</CardTitle>
         </CardHeader>
         <CardContent>
@@ -541,7 +547,7 @@ function Contact() {
     <Example>
       <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
-          <Briefcase className="h-4 w-4" />
+          <UserRoundSearch className="h-4 w-4" />
           <CardTitle>Contact</CardTitle>
         </CardHeader>
         <CardContent>
@@ -590,7 +596,7 @@ function RecentProjects() {
     <Example>
       <Card className="w-full h-full hover:shadow-md transition-all duration-300">
         <CardHeader className="flex flex-row items-center gap-2">
-          <Briefcase className="h-4 w-4" />
+          <FolderOpenDot className="h-4 w-4" />
           <CardTitle>Recent Projects</CardTitle>
         </CardHeader>
         <CardContent className="space-y-5">
