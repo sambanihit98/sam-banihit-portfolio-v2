@@ -866,6 +866,178 @@ function RecentProjects() {
               </Card>
             </div>
           </section>
+
+          <hr />
+
+          <section>
+            <div className="mb-3">
+              <CardSubTitle>UI / UX Design (Website Mockups)</CardSubTitle>
+            </div>
+            <div className="gap-4 grid lg:grid-cols-3">
+              <Card className="w-full">
+                <CardContent>
+                  <div className="space-y-2">
+                    <div>
+                      <p className="font-semibold">Bright Future Academy</p>
+                      <p className="text-xs">School</p>
+                    </div>
+                    <div>
+                      <Button
+                        asChild
+                        size="xs"
+                        variant="outline"
+                        className="gap-2 cursor-pointer"
+                      >
+                        <a
+                          href="https://tinyurl.com/bfacademy"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Globe className="h-4 w-4" />
+                          tinyurl.com/bfacademy
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="w-full">
+                <CardContent>
+                  <div className="space-y-2">
+                    <div>
+                      <p className="font-semibold">ToothieBeans</p>
+                      <p className="text-xs">Dental Clinic</p>
+                    </div>
+                    <div>
+                      <Button
+                        asChild
+                        size="xs"
+                        variant="outline"
+                        className="gap-2 cursor-pointer"
+                      >
+                        <a
+                          href="https://tinyurl.com/toothie-beans"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Globe className="h-4 w-4" />
+                          tinyurl.com/toothie-beans
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="w-full">
+                <CardContent>
+                  <div className="space-y-2">
+                    <div>
+                      <p className="font-semibold">HappyTrails</p>
+                      <p className="text-xs">Travel Blog</p>
+                    </div>
+                    <div>
+                      <Button
+                        asChild
+                        size="xs"
+                        variant="outline"
+                        className="gap-2 cursor-pointer"
+                      >
+                        <a
+                          href="https://tinyurl.com/happy-trails-ui"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Globe className="h-4 w-4" />
+                          tinyurl.com/happy-trails-ui
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="w-full">
+                <CardContent>
+                  <div className="space-y-2">
+                    <div>
+                      <p className="font-semibold">NFB Seminary</p>
+                      <p className="text-xs">Education / Christian Ministry</p>
+                    </div>
+                    <div>
+                      <Button
+                        asChild
+                        size="xs"
+                        variant="outline"
+                        className="gap-2 cursor-pointer"
+                      >
+                        <a
+                          href="https://tinyurl.com/nfb-seminary"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Globe className="h-4 w-4" />
+                          tinyurl.com/nfb-seminary
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="w-full">
+                <CardContent>
+                  <div className="space-y-2">
+                    <div>
+                      <p className="font-semibold">LinStruc</p>
+                      <p className="text-xs">Contruction Company</p>
+                    </div>
+                    <div>
+                      <Button
+                        asChild
+                        size="xs"
+                        variant="outline"
+                        className="gap-2 cursor-pointer"
+                      >
+                        <a
+                          href="https://tinyurl.com/linstruc-1"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Globe className="h-4 w-4" />
+                          tinyurl.com/linstruc-1
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="w-full">
+                <CardContent>
+                  <div className="space-y-2">
+                    <div>
+                      <p className="font-semibold">Bini PH</p>
+                      <p className="text-xs">Music / Artist</p>
+                    </div>
+                    <div>
+                      <Button
+                        asChild
+                        size="xs"
+                        variant="outline"
+                        className="gap-2 cursor-pointer"
+                      >
+                        <a
+                          href="https://tinyurl.com/bini-ph"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Globe className="h-4 w-4" />
+                          tinyurl.com/bini-ph
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
         </CardContent>
       </Card>
     </Example>
