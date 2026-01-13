@@ -663,7 +663,7 @@ function RecentProjects() {
                   </div>
                 </CardContent>
               </Card>
-              {/* <Card className="w-full">
+              <Card className="w-full">
                 <CardContent>
                   <div className="space-y-2">
                     <div>
@@ -679,15 +679,19 @@ function RecentProjects() {
                         variant="outline"
                         className="gap-2 cursor-pointer"
                       >
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a
+                          href="https://aidpoints.onrender.com/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <Globe className="h-4 w-4" />
-                          aidpoints.com
+                          aidpoints.onrender.com
                         </a>
                       </Button>
                     </div>
                   </div>
                 </CardContent>
-              </Card> */}
+              </Card>
             </div>
           </section>
 
