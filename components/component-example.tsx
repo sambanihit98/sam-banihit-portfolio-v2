@@ -331,7 +331,7 @@ function Testimonials() {
 
               <CarouselItem>
                 <TestimonialCard
-                  quote="Sam is an invaluable asset to our team. His exceptional work ethic and keen intellect consistently enhances the quality of our projects"
+                  quote="Sam is an invaluable asset to our team. His exceptional work ethic and keen intellect consistently enhances the quality of our projects."
                   name="MJ Litorja"
                   role="Head of Branding and Design of HopTask"
                 />
