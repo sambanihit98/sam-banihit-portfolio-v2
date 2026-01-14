@@ -339,7 +339,7 @@ function Testimonials() {
 
               <CarouselItem>
                 <TestimonialCard
-                  quote="Huge thanks to Sam Banihit for always being dependable and quick to help. His IT expertise and willingness to support the team are greatly appreciated."
+                  quote="Huge thanks to Sam for always being dependable and quick to help. His IT expertise and willingness to support the team are greatly appreciated."
                   name="Napoleon Cortez"
                   role="CPC - Approved Instructor of MedStar Philippines"
                 />
