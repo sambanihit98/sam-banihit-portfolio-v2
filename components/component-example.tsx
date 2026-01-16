@@ -617,9 +617,9 @@ function RecentProjects() {
                 <CardContent>
                   <div className="space-y-2">
                     <div>
-                      <p className="font-semibold">WorkHive</p>
+                      <p className="font-semibold">AidPoints</p>
                       <p className="text-xs">
-                        A job posting platform for Canlaon City
+                        Web-based emergency response app
                       </p>
                     </div>
                     <div>
@@ -630,12 +630,12 @@ function RecentProjects() {
                         className="gap-2 cursor-pointer"
                       >
                         <a
-                          href="https://workhive-6drl.onrender.com/"
+                          href="https://aidpoints.onrender.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <Globe className="h-4 w-4" />
-                          workhive-6drl.onrender.com
+                          aidpoints.onrender.com
                         </a>
                       </Button>
                     </div>
@@ -675,9 +675,9 @@ function RecentProjects() {
                 <CardContent>
                   <div className="space-y-2">
                     <div>
-                      <p className="font-semibold">AidPoints</p>
+                      <p className="font-semibold">WorkHive</p>
                       <p className="text-xs">
-                        Web-based emergency response app
+                        A job posting platform for Canlaon City
                       </p>
                     </div>
                     <div>
@@ -688,12 +688,12 @@ function RecentProjects() {
                         className="gap-2 cursor-pointer"
                       >
                         <a
-                          href="https://aidpoints.onrender.com/"
+                          href="https://workhive-6drl.onrender.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <Globe className="h-4 w-4" />
-                          aidpoints.onrender.com
+                          workhive-6drl.onrender.com
                         </a>
                       </Button>
                     </div>
